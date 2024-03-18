@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--favicon-->
+    <link rel="shortcut icon" href="./images/favicon_blue.png" type="image/x-icon">
+
+    <!--수트체 웹폰트-->
+    <link href="https://cdn.jsdelivr.net/gh/sun-typeface/SUIT/fonts/static/woff2/SUIT.css" rel="stylesheet">
+
+    <title>Welcome to my world</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        a {
+            text-decoration: none;
+            color: #000;
+        }
+
+        body {
+            background-color: #112131;
+        }
+
+        #wrapper {
+            max-width: 1320px;
+            margin: 0px auto;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        #wrapper video {
+            width: 100%;
+        }
+
+        #titles {
+            text-align: center;
+            margin-top: -90px;
+        }
+
+        .title {
+            font-family: 'SUIT', sans-serif;
+            font-size: 18px;
+            font-weight: 600;
+            line-height: 26px;
+            color: #848484;
+            letter-spacing: 1px;
+        }
+
+        span {
+            color: rgb(190, 190, 190);
+            font-weight: 600;
+        }
+
+        .sub {
+            color: rgb(146, 146, 146);
+            font-weight: 400;
+            line-height: 20px;
+            padding-top: 5px;
+        }
+
+        .home_btn {
+            position: fixed;
+            bottom: 40px;
+            right: 30px;
+            width: 40px;
+        }
+
+        .home_btn img {
+            width: 100%;
+            height: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="wrapper">
+        <video src="./video/memorise.mp4" controls></video>
+    </div>
+    <div id="titles">
+        <p class="title"> 곡명[Title] : <span>'향연'</span> [feast]</p>
+        <p class="sub">작곡, 컴퓨터프로그래밍 : 정기철<br>
+            [Writing·songs, computer programming by Jeong Gicheol]
+        </p>
+    </div>
+
+
+
+    <div class="home_btn"><!--home_btn-->
+        <a href="https://fungwoo.github.io/portfolio/" class="home_btn">
+            <img src="./images/home60x60.png" alt="home_btn">
+        </a>
+    </div>
+
+
+</body>
+
+</html>
